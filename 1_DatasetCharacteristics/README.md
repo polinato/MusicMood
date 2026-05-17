@@ -40,8 +40,8 @@ The exploratory data analysis is conducted in the [exploratory_data_analysis.ipy
 - Data quality assessment
 
 ### Key Findings
-- No missing values were found in any column (`df.isnull().sum()` returns 0 for all 21 columns).
+- No missing values were found in any of the 21 columns.
 - The class distribution is close to balanced (`happy`: 103, `sad`: 99), reducing class imbalance risk.
-- Popularity statistics are similar between classes (mean popularity: `happy` 72.63 vs `sad` 71.82), suggesting limited popularity-driven label bias.
+- Popularity statistics are similar between classes (mean popularity: `happy` 72.63 vs `sad` 71.82), suggesting track popularity is not strongly associated with mood labels.
 - Repeated artists exist (e.g., Billie Eilish appears 7 times), which may introduce artist-representation bias.
 - Correlation analysis was performed across key audio features (`danceability`, `energy`, `valence`, `acousticness`, `tempo`, `loudness`, `speechiness`, `instrumentalness`, `liveness`) to support feature selection and modeling.
