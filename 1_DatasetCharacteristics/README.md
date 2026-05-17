@@ -7,6 +7,7 @@
 ### Dataset Source
 - **Dataset Link:** https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-600k-tracks?select=tracks.csv
 - **Dataset Owner/Contact:** Public Kaggle dataset by user `yamaerenay`
+- **Project Dataset Scope:** This project analyzes a curated subset (`songs_dataset.csv`) derived from the source dataset, resulting in 202 labeled tracks used for mood classification.
 
 ### Dataset Characteristics
 - **Number of Observations:** 202 tracks
@@ -39,8 +40,7 @@ The exploratory data analysis is conducted in the [exploratory_data_analysis.ipy
 - Data quality assessment
 
 ### Key Findings
-- No missing values were found in any column (`df.isnull().sum()` returns 0 for all 21 columns).
-- After dropping missing values, the dataset size remained 202, confirming complete records.
+- No missing values were found in any column (`df.isnull().sum()` returns 0 for all 21 columns), so dropping missing rows did not change the dataset size.
 - The class distribution is close to balanced (`happy`: 103, `sad`: 99), reducing class imbalance risk.
 - Popularity statistics are similar between classes (mean popularity: `happy` 72.63 vs `sad` 71.82), suggesting limited popularity-driven label bias.
 - Repeated artists exist (e.g., Billie Eilish appears 7 times), which may introduce artist-representation bias.
