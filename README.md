@@ -1,16 +1,14 @@
-# [Your Project Title Here]
+# MusicMood
 
 ## Repository Link
-
-[https://github.com/your_username/your_project_name]
+https://github.com/polinato/MusicMood/
 
 ## Description
-
-[Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
+For our project, we aim to analyze happy and sad playlists from Spotify. Using the platform’s API, we will extract audio features and track-level analysis data, and train a machine learning model to classify and predict the emotional mood of songs based on these characteristics.
 
 ### Task Type
 
-[Image Classification / Chatbot / Regression / Clustering / Other]
+Classification
 
 ### Results Summary
 
